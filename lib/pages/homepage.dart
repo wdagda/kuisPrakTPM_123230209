@@ -48,7 +48,10 @@ class HomePage extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => const FAQ()),
               );
             },
-            child: const Text("FAQ"),
+            child: const Text(
+              "Tekan untuk membuka FAQ",
+              style: TextStyle(fontSize: 16),
+            ),
           ),
           const SizedBox(height: 10),
 

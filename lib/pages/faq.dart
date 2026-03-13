@@ -36,7 +36,7 @@ class FAQ extends StatelessWidget {
               const Text(
                 "Pertanyaan Umum (FAQ)",
                 style: TextStyle(fontSize: 16, color: Colors.grey),
-                textAlign: TextAlign.left,
+                textAlign: TextAlign.start,
               ),
               const SizedBox(height: 5),
               const Text(
