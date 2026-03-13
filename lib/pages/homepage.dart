@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'loginpage.dart';
 import '../models/listmenu.dart';
 import 'orderpage.dart';
+import 'FAQ.dart';
 
 class HomePage extends StatelessWidget {
   final String username;
@@ -40,7 +41,15 @@ class HomePage extends StatelessWidget {
           ),
 
           const SizedBox(height: 10),
-
+          TextButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const FAQ()),
+              );
+            },
+            child: const Text("FAQ"),
+          ),
           const SizedBox(height: 10),
 
           const Text(
@@ -111,10 +120,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-// const TextButton(
-//             onPressed: Navigator.push(
-//               context,
-//               MaterialPageRoute(builder: (context) => const FAQ()),
-//             ),
-//           ),

@@ -66,6 +66,7 @@ class _LoginPageState extends State<LoginPage> {
               const Text(
                 "Login untuk mengakses lebih banyak fitur (what?)",
                 style: TextStyle(fontSize: 16, color: Colors.grey),
+                textAlign: TextAlign.center,
               ),
               const SizedBox(height: 30),
 
